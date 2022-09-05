@@ -3,3 +3,11 @@
     font-family: cursive;
     font-size: 25PX;
 }
+
+//mixin
+@mixin fontStyle ($colorfondo) {
+    background-color: $colorfondo;
+    color: white;
+    text-transform: uppercase;
+}
+    

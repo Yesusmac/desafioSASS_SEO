@@ -3,13 +3,21 @@
   padding: 0;
   box-sizing: border-box; }
 
-.main__parrafoPrueba {
+.main__parrafoPrueba1, .main__parrafoPrueba2 {
   text-align: center;
   font-family: cursive;
   font-size: 25PX; }
 
 .main {
   background-color: rgba(249, 232, 237, 0.877); }
+  .main__parrafoPrueba1 {
+    background-color: #3661d9;
+    color: white;
+    text-transform: uppercase; }
+  .main__parrafoPrueba2 {
+    background-color: #57d936;
+    color: white;
+    text-transform: uppercase; }
   .main__tit-h1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
