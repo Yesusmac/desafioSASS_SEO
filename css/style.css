@@ -3,6 +3,11 @@
   padding: 0;
   box-sizing: border-box; }
 
+.main__parrafoPrueba {
+  text-align: center;
+  font-family: cursive;
+  font-size: 25PX; }
+
 .main {
   background-color: rgba(249, 232, 237, 0.877); }
   .main__tit-h1 {

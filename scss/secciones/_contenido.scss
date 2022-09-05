@@ -1,5 +1,8 @@
 .main {
     background-color: rgba(249, 232, 237, 0.877);
+    &__parrafoPrueba{
+        @extend %estiloparrafo;
+    }
 
     //index//
     &__tit-h1 {
