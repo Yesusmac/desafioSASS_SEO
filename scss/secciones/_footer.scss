@@ -1,0 +1,29 @@
+.footer {
+    background-color: pink;
+
+    &__txtPrin {
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+    }
+
+    &__section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__footerBox {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    &__defConsu {
+        text-align: center;
+    }
+}
