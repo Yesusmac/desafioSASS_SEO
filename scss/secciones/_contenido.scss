@@ -56,89 +56,109 @@
         padding: 10px;
         border-radius: 20px;
     }
-//Titulos otras pages//
-&__txtPrin {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align: center;
-    background-color: rgb(221, 234, 245);
-    font-size: 5rem;
- }
-//pages productos
 
-.row {
-    justify-content: space-between;
-    padding: 2rem;
-}
+    //Titulos otras pages//
+    &__txtPrin {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+        background-color: rgb(221, 234, 245);
+        font-size: 3rem;
+    }
 
-.btn-card {
-    background-color: #5d6271;
-    color: #fff;
-}
+    //pages productos
 
-.card-body {
-    background-color: #dadada;
-}
+    .row {
+        justify-content: space-between;
+        padding: 2rem;
+    }
 
-.card {
-    width: 18rem;
-}
+    .btn-card {
+        background-color: #5d6271;
+        color: #fff;
+    }
 
-.grid-bootstrap {
-    background-color: bisque;
-}
+    .card-body {
+        background-color: #dadada;
+    }
 
-.grid-bootstrap div {
-    border: 1px solid black;
-}
- 
-// page información 
+    .card {
+        width: 18rem;
+    }
 
-&__tablaTalles {
-    Display: block;
-    Margin: 0 auto;
-    padding: 1rem;
-}
-&__comoHacertuPedido {
-    Display: block;
-    Margin: 0 auto;
-    padding: 1rem;
-}
-// pages contactos
+    .grid-bootstrap {
+        background-color: bisque;
+    }
 
-&__form-contact {
-    background-color: #24303c;
-    width: 400px;
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 1px;
-    border-radius: 4px;
-    font-family: 'calibri';
-    color: white;
-    padding: 30px;}
+    .grid-bootstrap div {
+        border: 1px solid black;
+    }
 
-&__titFormCont{
-    font-size: 22px;
-    margin-bottom: 20px;
-}
+    // page información 
 
-&__controls{
-    width: 100%;
-    background: #24303c;
-    padding: 10px;
-    border-radius: 4px;
-    margin-bottom: 16px;
-    border: 1px solid #1f531fc5 ;
-    font-family: 'calibri';
-    font-size: 18px;
-}
-&__coment{ 
-    padding: 10px;
-}
-&__boton{
-    width: 100%;
-    background: #1f53c5;
-    border:none;
-    padding: 8px;
-}
-}
+    &__tablaTalles {
+        Display: block;
+        Margin: 0 auto;
+        padding: 1rem;
+    }
 
+    &__comoHacertuPedido {
+        Display: block;
+        Margin: 0 auto;
+        padding: 1rem;
+    }
+
+    // pages contactos y  crear cuenta
+
+    &__formContac {
+        background-color: #24303c;
+        width: 400px;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 1px;
+        border-radius: 4px;
+        font-family: 'calibri';
+        color: white;
+        padding: 30px;
+        box-shadow: 7px 13px 37px #000;
+    }
+
+    &__titFormCont {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    &__controls {
+        width: 100%;
+        background: #24303c;
+        padding: 10px;
+        border-radius: 4px;
+        margin-bottom: 16px;
+        border: 1px solid #1f531fc5;
+        font-family: 'calibri';
+        font-size: 18px;
+    }
+
+    &__coment {
+        padding: 10px;
+    }
+
+    &__boton {
+        width: 100%;
+        background: #1f53c5;
+        border: none;
+        padding: 8px;
+    }
+
+    &__parrafoForm {
+        height: 40px;
+        text-align: center;
+        font-size: 18px;
+        line-height: 40px;
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+    }
+
+}

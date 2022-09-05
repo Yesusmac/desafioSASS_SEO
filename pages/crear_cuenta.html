@@ -57,27 +57,17 @@
     </header>
     <!-- ccontenido -->
     <main class="main">
-        <h1 class="tit-anim-color">CREAR CUENTA</h1>
-        <form action="#" method="get" class="formularios">
-
-            <input type="text" name="Nombre" placeholder="Nombre y Apellido">
-            <br><br>
-            <input type="number" name="Edad" placeholder="Edad">
-            <br><br>
-            <!-- required obligo a que el formulario tenga ese dato -->
-            <input type="email" name="Email" placeholder="Email" required>
-            <br><br>
-            <input type="password" name="Contaseña" placeholder="Contraseña" required>
-            <br><br>
-
-            <span>Acepta términos y concidiciones</span>
-            <br>
-            <input type="checkbox" name="Aepta" value="si" required>
-            <br><br>
-
-            <input type="submit" value="Enviar">
-
-        </form>
+        <h1 class="main__txtPrin">CREA TU CUENTA</h1>
+        <section class="main__formContac">
+            <h4 class="main__titFormCont">Registrate</h4>
+            <input class="main__controls" type="text" name="nombres" id="nombres" placeholder="Nombres">
+            <input class="main__controls" type="text" name="apellido" id="apellido" placeholder="Apellido">
+            <input class="main__controls" type="email" name="correo" id="correo" placeholder="Correo">
+            <input class="main__controls" type="password" name="clave" id="clave" placeholder="Clave">
+            <p class="main__parrafoForm">Estoy de acuerdo con <a href="#">Terminos y condiciones</a></p>
+            <input class="main__boton" type="submit">
+            <p class="main__parrafoForm"><a href="#">¿Ya tengo cuenta?</a></p>
+        </section>
     </main>
     <!-- pie de pagina -->
     <footer class="footer">

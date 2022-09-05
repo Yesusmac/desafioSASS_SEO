@@ -48,7 +48,7 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     background-color: #ddeaf5;
-    font-size: 5rem; }
+    font-size: 3rem; }
   .main .row {
     justify-content: space-between;
     padding: 2rem; }
@@ -71,7 +71,7 @@
     Display: block;
     Margin: 0 auto;
     padding: 1rem; }
-  .main__form-contact {
+  .main__formContac {
     background-color: #24303c;
     width: 400px;
     margin: auto;
@@ -80,7 +80,8 @@
     border-radius: 4px;
     font-family: 'calibri';
     color: white;
-    padding: 30px; }
+    padding: 30px;
+    box-shadow: 7px 13px 37px #000; }
   .main__titFormCont {
     font-size: 22px;
     margin-bottom: 20px; }
@@ -100,6 +101,14 @@
     background: #1f53c5;
     border: none;
     padding: 8px; }
+  .main__parrafoForm {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px; }
+    .main__parrafoForm a {
+      color: white;
+      text-decoration: none; }
 
 .footer {
   background-color: pink; }
