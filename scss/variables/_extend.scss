@@ -5,9 +5,10 @@
 }
 
 //mixin
-@mixin fontStyle ($colorfondo) {
+@mixin fontStyle ($colorfondo, $padding) {
     background-color: $colorfondo;
     color: white;
     text-transform: uppercase;
+    padding: $padding;
 }
     

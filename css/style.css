@@ -13,11 +13,13 @@
   .main__parrafoPrueba1 {
     background-color: #3661d9;
     color: white;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    padding: 1rem; }
   .main__parrafoPrueba2 {
     background-color: #57d936;
     color: white;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    padding: 3rem; }
   .main__tit-h1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
